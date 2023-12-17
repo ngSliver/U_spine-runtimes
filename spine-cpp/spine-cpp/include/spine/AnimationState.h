@@ -271,7 +271,7 @@ namespace spine {
 
 		void setListener(AnimationStateListenerObject *listener);
 
-	private:
+	//private:
 		Animation *_animation;
 		TrackEntry *_previous;
 		TrackEntry *_next;
@@ -308,7 +308,9 @@ namespace spine {
 	class SP_API EventQueue : public SpineObject {
 		friend class AnimationState;
 
-	private:
+	//private:
+	public:
+
 		Vector<EventQueueEntry> _eventQueueEntries;
 		AnimationState &_state;
 		bool _drainDisabled;
@@ -434,7 +436,7 @@ namespace spine {
 
 		void disposeTrackEntry(TrackEntry *entry);
 
-	private:
+	//private:
 		static const int Subsequent = 0;
 		static const int First = 1;
 		static const int HoldSubsequent = 2;
