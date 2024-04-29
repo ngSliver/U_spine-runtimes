@@ -70,7 +70,7 @@ namespace spine {
 		/// Removes all mixes and sets the default mix to 0.
 		void clear();
 
-	private:
+	//private:
 		class AnimationPair : public SpineObject {
 		public:
 			Animation *_a1;
