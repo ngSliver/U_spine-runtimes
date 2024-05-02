@@ -284,7 +284,7 @@ namespace spine {
         /// See AnimationState::apply(Skeleton).
         bool wasApplied();
 
-	private:
+	//private:
 		Animation *_animation;
 		TrackEntry *_previous;
 		TrackEntry *_next;

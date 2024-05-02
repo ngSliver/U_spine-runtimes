@@ -66,7 +66,7 @@ namespace spine {
 			}
 		}
 
-	private:
+	//private:
 		Vector<T *> _objects;
 	};
 }

@@ -158,7 +158,7 @@ namespace spine {
 
         void rotate(float x, float y, float degrees);
 
-    private:
+    //private:
         PhysicsConstraintData& _data;
         Bone* _bone;
 
